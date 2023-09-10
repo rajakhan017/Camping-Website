@@ -1,0 +1,283 @@
+.about {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.company-info {
+	margin-top: 30px;
+}
+
+.about h3 {
+	margin: 30px 0 10px;
+}
+
+.team {
+	text-align: left;
+	width: 100%;
+}
+
+.team ul {
+	padding-left: 20px;
+}
+
+.info,
+.mission,
+.team {
+	padding: 0 10px;
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin-top: 50px;
+	padding: 0 10px;
+	justify-content: space-between;
+}
+
+.card {
+	background: #fff;
+	padding: 40px 15px;
+	list-style: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+	margin-bottom: 20px;
+	width: calc(100% / 3 - 30px);
+	text-align: center;
+    height: 280px;
+    width: 280px;
+}
+
+.card img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border-radius: 100%;
+	object-fit: cover;
+}
+
+.card p {
+	padding: 0 15px;
+	margin-top: 5px;
+}
+.contact-box {
+	margin: 60px 0 90px;
+	display: flex;
+	max-width: 1200px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.box {
+	padding: 0 10px;
+	width: calc(100% / 2 - 50px);
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+
+p svg {
+	fill: #7a7a7a;
+	margin-right: 10px;
+}
+
+form input {
+	height: 45px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	font-size: 16px;
+	outline: none;
+	border: 1px solid #bfbfbf;
+}
+
+form textarea {
+	padding: 10px;
+	width: 100%;
+	font-size: 16px;
+	height: 150px;
+	outline: none;
+	resize: vertical;
+	border: 1px solid #bfbfbf;
+}
+
+form button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 17px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #333;
+	transition: 0.2s ease;
+}
+
+form button:hover {
+	background: #525252;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: #333333;
+    height: 60px;
+    font-size: 14px;
+}
+
+.navbar {
+	display: flex;
+	padding: 0 10px;
+	max-width: 1200px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+    
+}
+.logo {
+    padding-left: 70px;
+    font-size: 20px;
+} 
+.nav-links{
+    padding-right: 70px;
+}
+
+header a {
+	margin-left: 40px;
+	text-decoration: none;
+	color: #fff;
+	height: 100%;
+	padding: 30px 0;
+}
+
+header a:hover {
+	color: #ddd;
+}
+.landing {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: url('https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped');
+	background-position: center 65%;
+	background-size: cover;
+	background-attachment: fixed;
+    
+}
+.services {
+
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 14px;
+}
+
+.about {
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 14px;
+}
+.contact {
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 14px;
+}
+.cards { 
+    font-size: 14px;
+}
+
+.landing::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	display: flex;
+	height: 85%;
+	z-index: 1;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.desc {
+	margin-bottom: 50px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container a {
+	color: #000;
+	display: block;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0 10px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	background: #fff;
+	border: 2px solid #fff;
+	transition: 0.4s ease;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+}
+
+.container a:hover {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 80px 0 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+h2:not(.logo) {
+	font-size: 32px;
+}
+
+section > p {
+	text-align: center;
+}
